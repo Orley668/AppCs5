@@ -25,10 +25,11 @@ namespace AppProyecto
         Button btnSingIn;
 
 
-     
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.UserRegister);
 
             txtName = FindViewById<EditText>(Resource.Id.txtName);
             txtSurname = FindViewById<EditText>(Resource.Id.txtSurName);
@@ -47,8 +48,32 @@ namespace AppProyecto
 
         private void BtnSingIn_Click(object sender, EventArgs e)
         {
-            Intent i = new Intent(this, typeof(MainActivity));
-            StartActivity(i);
+
+            try
+            {
+                if (!string.IsNullOrEmpty(txtNuevoUsuario.Text.Trim()) && !string.IsNullOrEmpty(txtNuevoUsuario.Text)
+                {
+
+                    new Auxiliar().Guardar(new Login() { Id = 0, User = txtNuevoUsuario.Text.Trim(), Password = txtNuevacontraseña })
+                        Toast.MakeText(this, "Registro guardado", ToastLength.Long).Show();
+                }
+                else
+                {
+
+                    Toast.MakeText(this, "Por favor ingrese un hombre de usuario y una clave", ToastLength.Long).Show();
+                }
+
+            }
+        
+    
+            catch (Exception ex)
+            {
+
+                Toast.MakeText(this,ex.ToString(), ToastLength.Long).Show();
+
+
+            }
+            
         }
     }
 }

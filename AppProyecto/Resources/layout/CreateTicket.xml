@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
+
+        <TextView
+        android:text="ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblId" />
+     <EditText
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+           android:hint=""
+        android:id="@+id/txtId" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
@@ -16,18 +28,39 @@
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-           android:hint="Area"
-        android:id="@+id/txtArea" />
+           android:hint="Name Ticket"
+        android:id="@+id/txtNameTicket" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-           android:hint="Information"
-        android:id="@+id/TxtInformation" />
-    <Button
-        android:text="Save"
+           android:hint="Origen"
+        android:id="@+id/txtOrigen" />
+    <EditText
+        android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSave" />
+           android:hint="Destino"
+        android:id="@+id/txtDestino" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+           android:hint="Valor"
+        android:id="@+id/txtValor" />
+    <Button
+        android:text="Crear Ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCrearTicket" />
+    <Button
+        android:text="Consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+  
+
+
+
 
 </LinearLayout>

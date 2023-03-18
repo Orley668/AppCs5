@@ -2110,11 +2110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Torres\\source\\repos\\AppProyecto\\AppProyecto\\AppProyecto.csproj",
+      "projectUniqueName": "C:\\Users\\Torres\\source\\repos\\Orley668\\AppCs5\\AppProyecto\\AppProyecto.csproj",
       "projectName": "AppProyecto",
-      "projectPath": "C:\\Users\\Torres\\source\\repos\\AppProyecto\\AppProyecto\\AppProyecto.csproj",
+      "projectPath": "C:\\Users\\Torres\\source\\repos\\Orley668\\AppCs5\\AppProyecto\\AppProyecto.csproj",
       "packagesPath": "C:\\Users\\Torres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Torres\\source\\repos\\AppProyecto\\AppProyecto\\obj\\",
+      "outputPath": "C:\\Users\\Torres\\source\\repos\\Orley668\\AppCs5\\AppProyecto\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

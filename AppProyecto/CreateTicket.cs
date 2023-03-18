@@ -17,27 +17,77 @@ namespace AppProyecto
     {
 
 
-        EditText txtProblem;
-        EditText txtArea;
-        EditText txtInformation;
-        Button btnSave;
-      
+        EditText txtNameTicket ;
+        EditText txtOrigen;
+        EditText txtDestino;
+        EditText txtValor ;
+        Button btnCrearTicket;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            txtProblem = FindViewById<EditText>(Resource.Id.txtProblem);
-            txtArea = FindViewById<EditText>(Resource.Id.txtArea);
-            btnSave = FindViewById<Button>(Resource.Id.btnSave);
-            btnSave.Click += BtnSave_Click;
+            SetContentView(Resource.Layout.CreateTicket);
+            txtNameTicket = FindViewById<EditText>(Resource.Id.txtNameTicket);
+            txtOrigen = FindViewById<EditText>(Resource.Id.txtOrigen);
+            txtDestino = FindViewById<EditText>(Resource.Id.txtDestino);
+            txtValor = FindViewById<EditText>(Resource.Id.txtValor);
+            btnCrearTicket = FindViewById<Button>(Resource.Id.btnCrearTicket);
+            btnCrearTicket.Click += BtnCrearTicket_Click;
 
 
             // Create your application here
         }
 
-        private void BtnSave_Click(object sender, EventArgs e)
+        private void BtnCrearTicket_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+           try
+            {
+
+                if (!string.IsNullOrEmpty(txtNameTicket.Text.Trim()))
+                {
+
+                    new Auxiliar().GuardarTicket(new CrearTicket()
+                    {
+                        Id = 0,
+                        NameTicket = txtNameTicket.Text.Trim(),
+                        OrigenTicket = txtOrigen.Text.Trim(),
+                        DestinoTicket = txtDestino.Text.Trim(),
+                        ValorTicket = double.Parse(txtValor.Text.Trim())
+                    });
+                    Toast.MakeText(this,"Registro Guardado",ToastLength.Long).Show();
+                    txtNameTicket.Text ="";
+                    txtOrigen.Text = "";
+                    txtDestino.Text = "";
+                    txtValor.Text = "";
+                    btnCrearTicket.Text = "";
+
+
+                }
+                else
+                {
+                    Toast.MakeText(this, "Ingrese los campos requeridos", ToastLength.Long).Show();
+                   
+                }
+            }
+            catch
+            {
+
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+
         }
+
+       
     }
 }
