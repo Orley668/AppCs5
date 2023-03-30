@@ -3,48 +3,28 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:text="REGISTRAR"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtviewRegistrar" />
     <EditText
-        android:inputType="textMultiLine"
+        android:hint="Usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:hint="Name"
-        android:id="@+id/txtName" />
+        android:id="@+id/txtNuevoUsuario" />
     <EditText
-        android:inputType="textMultiLine"
+        android:hint="Contraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="SurName"
-        android:id="@+id/txtSurName" />
-    <EditText
-        android:inputType="textMultiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Age"
-        android:id="@+id/txtAge" />
-    <EditText
-        android:inputType="textMultiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email"
-        android:id="@+id/txtEmail" />
-     <EditText
-        android:inputType="textMultiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:id="@id/txtPassword" />
-     <EditText
-        android:inputType="textMultiLine"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Confirm password"
-        android:id="@+id/txtConfirmPassword" />
+        android:inputType="textPassword"
+        android:id="@+id/txtNuevaClaveUsuario" />
     <Button
-        android:text="Sing In"
+        android:text="CREAR NUEVO USUARIO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bntSingIn" />
-
+        android:id="@+id/btnRegistrarUsuarioNuevo" 
+        android:onClick="BtnRegistrarUsuario_Click"/>
 </LinearLayout>

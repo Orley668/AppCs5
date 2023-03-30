@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ToXaVgSrW6sbMXGoqt/eIkLFI8fyLcSIT98f0HprukRkNNfUF39vCLihjbkGnK/G2sxAzGnOL4usSV8EIqg4DA==",
+  "dgSpecHash": "HMnzdutr6pdf98f/gh78aepr3l638e8EZG2gLynk9l2A6A/wXzMu5Mh/PKBTIluwbr7qMLaHLAAnekUq3n2vwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Torres\\source\\repos\\Orley668\\AppCs5\\AppProyecto\\AppProyecto.csproj",
+  "projectFilePath": "C:\\Users\\Torres\\Source\\Repos\\Orley668\\AppCs5\\AppProyecto\\AppProyecto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Torres\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\Torres\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
