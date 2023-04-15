@@ -22,6 +22,7 @@ namespace AppProyecto
         EditText txtDestino;
         EditText txtValor;
         Button btnCrearTicket;
+        Button btnConsultar;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -31,8 +32,21 @@ namespace AppProyecto
             txtDestino = FindViewById<EditText>(Resource.Id.txtDestino);
             txtValor = FindViewById<EditText>(Resource.Id.txtValor);
             btnCrearTicket = FindViewById<Button>(Resource.Id.btnCrearTicket);
+            btnConsultar = FindViewById<Button>(Resource.Id.btnConsultar);
 
             btnCrearTicket.Click += BtnCrearTicket_Click;
+            btnConsultar.Click += BtnConsultar_Click;
+
+
+        }
+
+        private void BtnConsultar_Click(object sender, EventArgs e)
+        {
+
+
+            Intent i = new Intent(this, typeof(Modificar));
+            StartActivity(i);
+
 
         }
 
@@ -67,5 +81,9 @@ namespace AppProyecto
                 Toast.MakeText(this, ex.ToString(), ToastLength.Short).Show();
             }
         }
+
+
+
+
     }
 }

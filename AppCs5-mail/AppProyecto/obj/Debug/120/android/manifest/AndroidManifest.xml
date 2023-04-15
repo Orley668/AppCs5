@@ -18,6 +18,7 @@
       </intent-filter>
     </activity>
     <activity android:name="crc645c43a17a0674987c.Menu" android:label="menu" />
+    <activity android:name="crc645c43a17a0674987c.Modificar" android:label="Modificar" />
     <activity android:name="crc645c43a17a0674987c.RegistrarUsuario" android:label="UserRegister" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <receiver android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" />

@@ -5,6 +5,7 @@ background;obj\Release\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Release\120\res\layout\activity_main.xml
 Button;obj\Release\120\res\layout\createticket.xml
 Button;obj\Release\120\res\layout\deleteticket.xml
+Button;obj\Release\120\res\layout\modificar.xml
 Button;obj\Release\120\res\layout\modifyticket.xml
 Button;obj\Release\120\res\layout\userregister.xml
 cache-path;C:\Users\Torres\source\repos\AppProyecto\AppProyecto\obj\Release\120\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -13,6 +14,7 @@ color;obj\Release\120\res\values\ic_launcher_background.xml
 EditText;obj\Release\120\res\layout\activity_main.xml
 EditText;obj\Release\120\res\layout\createticket.xml
 EditText;obj\Release\120\res\layout\deleteticket.xml
+EditText;obj\Release\120\res\layout\modificar.xml
 EditText;obj\Release\120\res\layout\modifyticket.xml
 EditText;obj\Release\120\res\layout\userregister.xml
 external-cache-path;C:\Users\Torres\source\repos\AppProyecto\AppProyecto\obj\Release\120\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -25,6 +27,7 @@ LinearLayout;obj\Release\120\res\layout\activity_main.xml
 LinearLayout;obj\Release\120\res\layout\createticket.xml
 LinearLayout;obj\Release\120\res\layout\deleteticket.xml
 LinearLayout;obj\Release\120\res\layout\menu.xml
+LinearLayout;obj\Release\120\res\layout\modificar.xml
 LinearLayout;obj\Release\120\res\layout\modifyticket.xml
 LinearLayout;obj\Release\120\res\layout\userregister.xml
 menu;obj\Release\120\res\menu\menu_main.xml
@@ -37,5 +40,6 @@ string;obj\Release\120\res\values\strings.xml
 style;obj\Release\120\res\values\styles.xml
 TextView;obj\Release\120\res\layout\createticket.xml
 TextView;obj\Release\120\res\layout\menu.xml
+TextView;obj\Release\120\res\layout\modificar.xml
 TextView;obj\Release\120\res\layout\userregister.xml
 Toolbar;obj\Release\120\res\layout\menu.xml

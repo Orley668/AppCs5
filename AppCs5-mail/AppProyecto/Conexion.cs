@@ -202,7 +202,7 @@ namespace AppProyecto
             lock (locker)
             {
 
-                return conexion.Delete<Login>(ID);
+                return conexion.Delete<CrearTicket>(ID);
             }
         }
 
