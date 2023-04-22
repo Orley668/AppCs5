@@ -1063,3 +1063,5 @@ C:\Users\Torres\Source\Repos\Orley668\AppCs5\AppCs5-mail\AppProyecto\obj\Debug\1
 C:\Users\Torres\Source\Repos\Orley668\AppCs5\AppCs5-mail\AppProyecto\obj\Debug\120\android\src\crc645c43a17a0674987c\Create_Ticket.java
 C:\Users\Torres\Source\Repos\Orley668\AppCs5\AppCs5-mail\AppProyecto\obj\Debug\120\res\layout\modificar.xml
 C:\Users\Torres\Source\Repos\Orley668\AppCs5\AppCs5-mail\AppProyecto\obj\Debug\120\android\src\crc645c43a17a0674987c\Modificar.java
+C:\Users\Torres\Source\Repos\Orley668\AppCs5\AppCs5-mail\AppProyecto\obj\Debug\120\res\layout\consultar.xml
+C:\Users\Torres\Source\Repos\Orley668\AppCs5\AppCs5-mail\AppProyecto\obj\Debug\120\android\src\crc645c43a17a0674987c\Consultar.java

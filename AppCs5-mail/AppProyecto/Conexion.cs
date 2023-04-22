@@ -105,11 +105,11 @@ namespace AppProyecto
 
         }
         //selecionar un Ticket
-        public CrearTicket SelecionarUnTicket(int Id)
+        public CrearTicket SelecionarUnTicket(string NameTicket)
         {
             lock (locker) { 
             
-            return conexion.Table<CrearTicket>().FirstOrDefault(x => x.Id == Id);
+            return conexion.Table<CrearTicket>().FirstOrDefault(x => x.NameTicket == NameTicket);
             }
 
         }

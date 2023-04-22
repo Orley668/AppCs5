@@ -3,6 +3,7 @@ adaptive-icon;obj\Release\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 background;obj\Release\120\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Release\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Release\120\res\layout\activity_main.xml
+Button;obj\Release\120\res\layout\consultar.xml
 Button;obj\Release\120\res\layout\createticket.xml
 Button;obj\Release\120\res\layout\deleteticket.xml
 Button;obj\Release\120\res\layout\modificar.xml
@@ -12,6 +13,7 @@ cache-path;C:\Users\Torres\source\repos\AppProyecto\AppProyecto\obj\Release\120\
 color;obj\Release\120\res\values\colors.xml
 color;obj\Release\120\res\values\ic_launcher_background.xml
 EditText;obj\Release\120\res\layout\activity_main.xml
+EditText;obj\Release\120\res\layout\consultar.xml
 EditText;obj\Release\120\res\layout\createticket.xml
 EditText;obj\Release\120\res\layout\deleteticket.xml
 EditText;obj\Release\120\res\layout\modificar.xml
@@ -24,6 +26,7 @@ foreground;obj\Release\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 item;obj\Release\120\res\menu\menu_main.xml
 item;obj\Release\120\res\values\styles.xml
 LinearLayout;obj\Release\120\res\layout\activity_main.xml
+LinearLayout;obj\Release\120\res\layout\consultar.xml
 LinearLayout;obj\Release\120\res\layout\createticket.xml
 LinearLayout;obj\Release\120\res\layout\deleteticket.xml
 LinearLayout;obj\Release\120\res\layout\menu.xml
@@ -38,6 +41,7 @@ resources;obj\Release\120\res\values\strings.xml
 resources;obj\Release\120\res\values\styles.xml
 string;obj\Release\120\res\values\strings.xml
 style;obj\Release\120\res\values\styles.xml
+TextView;obj\Release\120\res\layout\consultar.xml
 TextView;obj\Release\120\res\layout\createticket.xml
 TextView;obj\Release\120\res\layout\menu.xml
 TextView;obj\Release\120\res\layout\modificar.xml

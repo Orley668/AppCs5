@@ -18,6 +18,7 @@
       </intent-filter>
     </activity>
     <activity android:name="crc645c43a17a0674987c.Menu" android:label="menu" />
+    <activity android:name="crc645c43a17a0674987c.Consultar" android:label="Consultar" />
     <activity android:name="crc645c43a17a0674987c.Modificar" android:label="Modificar" />
     <activity android:name="crc645c43a17a0674987c.RegistrarUsuario" android:label="UserRegister" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />

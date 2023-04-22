@@ -16,7 +16,7 @@ namespace AppProyecto
 
     public class Create_Ticket : Activity
     {
-
+        EditText txtId;
         EditText txtNombreTicket;
         EditText txtOrigen;
         EditText txtDestino;
@@ -27,6 +27,7 @@ namespace AppProyecto
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.CreateTicket);
+            txtId = FindViewById<EditText>(Resource.Id.txtId);
             txtNombreTicket = FindViewById<EditText>(Resource.Id.txtNombreTicket);
             txtOrigen = FindViewById<EditText>(Resource.Id.txtOrigen);
             txtDestino = FindViewById<EditText>(Resource.Id.txtDestino);
@@ -35,20 +36,12 @@ namespace AppProyecto
             btnConsultar = FindViewById<Button>(Resource.Id.btnConsultar);
 
             btnCrearTicket.Click += BtnCrearTicket_Click;
-            btnConsultar.Click += BtnConsultar_Click;
+            btnConsultar.Click +=BtnConsultar_Click;
 
 
         }
 
-        private void BtnConsultar_Click(object sender, EventArgs e)
-        {
-
-
-            Intent i = new Intent(this, typeof(Modificar));
-            StartActivity(i);
-
-
-        }
+     
 
         private void BtnCrearTicket_Click(object sender, EventArgs e)
         {
@@ -58,7 +51,7 @@ namespace AppProyecto
                 {
                     new Auxiliar().GuardarTicket(new CrearTicket()
                     {
-                        Id = 0,
+                        Id =int.Parse(txtId.Text.Trim()),
                         NameTicket = txtNombreTicket.Text.Trim(),
                         OrigenTicket = txtOrigen.Text.Trim(),
                         DestinoTicket = txtDestino.Text.Trim(),
@@ -82,8 +75,15 @@ namespace AppProyecto
             }
         }
 
+        private void BtnConsultar_Click(object sender, EventArgs e)
+        {
+            
+            
+            Intent i = new Intent(this, typeof(Consultar));
+            StartActivity(i);
 
 
+        }
 
     }
 }

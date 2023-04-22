@@ -7,6 +7,9 @@ appproyecto.MainActivity;crc645c43a17a0674987c.MainActivity
 AppProyecto.Menu, AppProyecto;crc645c43a17a0674987c.Menu
 AppProyecto.Menu;crc645c43a17a0674987c.Menu
 appproyecto.Menu;crc645c43a17a0674987c.Menu
+AppProyecto.Consultar, AppProyecto;crc645c43a17a0674987c.Consultar
+AppProyecto.Consultar;crc645c43a17a0674987c.Consultar
+appproyecto.Consultar;crc645c43a17a0674987c.Consultar
 AppProyecto.Modificar, AppProyecto;crc645c43a17a0674987c.Modificar
 AppProyecto.Modificar;crc645c43a17a0674987c.Modificar
 appproyecto.Modificar;crc645c43a17a0674987c.Modificar

@@ -66,6 +66,7 @@
     <Compile Include="CreateTicket.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Menu.cs" />
+    <Compile Include="Consultar.cs" />
     <Compile Include="Modificar.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -220,6 +221,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Consultar.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Modificar.xml">
