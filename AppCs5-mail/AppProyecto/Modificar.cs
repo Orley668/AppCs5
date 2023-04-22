@@ -48,7 +48,7 @@ namespace AppProyecto
             {
                 if (!string.IsNullOrEmpty(txtId.Text.Trim()) && !string.IsNullOrEmpty(txtNombreTicket.Text.Trim())) 
                 {
-                    if (int.TryParse(txtOrigen.Text.Trim(), out Id))
+                    if (int.TryParse(txtId.Text.Trim(), out Id))
                     {
                         new Auxiliar().GuardarTicket(new CrearTicket() { Id = Id, NameTicket = txtNombreTicket.Text });
                         Toast.MakeText(this, "Registro Guardado", ToastLength.Long).Show();

@@ -52,7 +52,7 @@ namespace AppProyecto
             {
                 if (!string.IsNullOrEmpty(txtId.Text.Trim()))
                 {
-                    if (int.TryParse(txtOrigen.Text.Trim(), out Id))
+                    if (int.TryParse(txtId.Text.Trim(), out Id))
                     {
                         new Auxiliar().EliminarTicket(Id);
                         Toast.MakeText(this, "Registro Eliminado", ToastLength.Long).Show();
